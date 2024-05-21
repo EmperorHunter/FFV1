@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    font-family: 'roboto';
+    font-size: 12pt;
+}
+/*header*/
+header {
+    overflow: hidden;
+}
+
+.top-header {
+    text-align: center;
+}
+
+/*logo*/
+.logo {
+    float: left;
+    padding: none;
+    margin: none;
+    width: 30%;
+    min-height: 10%;
+    max-height: 12vh;
+}
+
+.logo img {
+    width: 60%;
+    float: left;
+    padding: 10px 0px;
+}
+
+/*Navigation menu*/
+.menu {
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+
+.menu ul {
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #9c6c05;
+}
+
+.menu li {
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+.menu li a, .menu li span {
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.menu li a {
+    color: #FFF;
+}
+
+.menu li:hover a, .menu li span {
+    background: #FFF;
+    color:#9c6c05;
+    border-left: 1px solid #9c6c05;
+    text-decoration: none;
+}
+
+/*image menu*/
+
+#image-menu {
+    top: 10px;
+    position: relative;
+}
+
+#image-menu img {
+    width: 88%;
+    height: 590px;
+    margin: none;
+    padding: none;
+    position: relative;
+}
+
+#header-name {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ce5a0d;
+    transform: translate(-30% -30%);
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+/*main content*/
+/*section 1*/
+#welcome {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#welcome p {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+
+#welcome .title {
+    font-size: 60px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*section 2*/
